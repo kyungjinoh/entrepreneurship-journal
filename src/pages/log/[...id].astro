@@ -1,0 +1,318 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Nav from "../../components/Nav.astro";
+
+export async function getStaticPaths() {
+  const logs = await getCollection("buildlogs");
+  return logs.map((log) => ({
+    params: { id: log.id },
+    props: { log },
+  }));
+}
+
+const { log } = Astro.props;
+const { Content } = await render(log);
+
+const lead = log.data.titleLead?.trim();
+const rest =
+  lead && log.data.title.startsWith(lead)
+    ? log.data.title.slice(lead.length).replace(/^:\s*/, "")
+    : "";
+const statusClass =
+  log.data.status === "In Progress"
+    ? "in-progress"
+    : log.data.status.toLowerCase();
+const showYear = Boolean(log.data.yearLabel) && !log.data.additional;
+const showStatus = !log.data.additional;
+const cover = log.data.image;
+const coverType = log.data.coverType ?? "image";
+---
+
+<BaseLayout title={`${log.data.title} — Kyungjin Oh`} description={log.data.summary}>
+  <Nav name="Kyungjin Oh's Entrepreneurship / Engineering Journal" />
+  <main id="main" class="wrap article">
+    <a href="/" class="article__back">&larr; All builds</a>
+
+    {
+      (showStatus || showYear) && (
+        <div class="article__meta">
+          {showStatus && (
+            <span
+              class:list={["article__status", `article__status--${statusClass}`]}
+              >{log.data.status}</span
+            >
+          )}
+          {showYear && log.data.yearLabel && (
+            <span class="article__year">{log.data.yearLabel}</span>
+          )}
+        </div>
+      )
+    }
+
+    <h1 class="article__title">
+      {
+        lead && rest ? (
+          <>
+            <strong class="article__title-lead">{lead}</strong>
+            <span class="article__title-rest">: {rest}</span>
+          </>
+        ) : (
+          <strong class="article__title-lead">{log.data.title}</strong>
+        )
+      }
+    </h1>
+    <p class="article__summary">{log.data.summary}</p>
+
+    {
+      cover && (
+        <figure class="article__figure">
+          {coverType === "video" ? (
+            <video
+              class="article-video"
+              src={cover}
+              controls
+              playsinline
+              preload="metadata"
+              poster="/images/unity-game-poster.png"
+            />
+          ) : (
+            <img
+              src={cover}
+              alt={log.data.imageAlt}
+              width="1600"
+              height="1000"
+              loading="eager"
+              decoding="async"
+            />
+          )}
+        </figure>
+      )
+    }
+
+    <div class="article__body">
+      <Content />
+    </div>
+
+    {
+      log.data.tags.length > 0 && (
+        <ul class="article__tags" aria-label="Tags">
+          {log.data.tags.map((t) => (
+            <li>#{t}</li>
+          ))}
+        </ul>
+      )
+    }
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>&copy; {new Date().getFullYear()} Kyungjin Oh</span>
+      <a href="/">Back to all builds</a>
+    </div>
+  </footer>
+
+  <style>
+    .article {
+      padding-block: calc(var(--nav-h) + clamp(1.5rem, 4vw, 2.5rem))
+        clamp(3rem, 8vw, 5rem);
+      max-width: 62rem;
+    }
+
+    .article__back {
+      display: inline-block;
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+
+    .article__meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+    }
+
+    .article__status {
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.72rem;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--burnt-orange);
+      background: #f7ece2;
+      padding: 0.15rem 0.5rem;
+      border-radius: var(--radius-sm);
+    }
+
+    .article__status--shipped {
+      color: #1f6b3a;
+      background: #e5f2e9;
+    }
+
+    .article__status--in-progress {
+      color: var(--burnt-orange);
+      background: #f7ece2;
+    }
+
+    .article__year {
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+      color: var(--surface);
+      background: var(--vermillion);
+      padding: 0.15rem 0.5rem;
+      border-radius: var(--radius-sm);
+    }
+
+    .article__title {
+      font-size: clamp(2.25rem, 6vw, 3.5rem);
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    .article__title-lead {
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      color: var(--ink);
+    }
+
+    .article__title-rest {
+      font-weight: 400;
+      color: var(--ink-soft);
+    }
+
+    .article__summary {
+      font-size: clamp(1.1rem, 2vw, 1.35rem);
+      color: var(--ink-soft);
+      margin-bottom: 2rem;
+    }
+
+    .article__figure {
+      margin: 0 0 2.5rem;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-rest);
+    }
+
+    .article__figure img,
+    .article__figure video {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+      background: #000;
+    }
+
+    .article__body {
+      font-size: 1.0625rem;
+      line-height: 1.75;
+      color: var(--ink-soft);
+    }
+
+    .article__body :global(p) {
+      margin-bottom: 1.15rem;
+      text-wrap: pretty;
+    }
+
+    .article__body :global(h2) {
+      font-family: var(--font-serif);
+      font-size: clamp(1.45rem, 2.5vw, 1.85rem);
+      color: var(--ink);
+      margin: 2.4rem 0 0.85rem;
+      text-wrap: balance;
+    }
+
+    .article__body :global(h3) {
+      font-family: var(--font-serif);
+      font-size: clamp(1.15rem, 2vw, 1.35rem);
+      color: var(--ink);
+      margin: 1.8rem 0 0.65rem;
+      text-wrap: balance;
+    }
+
+    .article__body :global(ul),
+    .article__body :global(ol) {
+      margin: 0 0 1.25rem;
+      padding-left: 1.35rem;
+    }
+
+    .article__body :global(li) {
+      margin-bottom: 0.4rem;
+    }
+
+    .article__body :global(li::marker) {
+      color: var(--vermillion);
+    }
+
+    .article__body :global(img) {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem 0;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-rest);
+    }
+
+    .article__body :global(video),
+    .article__body :global(.article-video) {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem 0;
+      border-radius: var(--radius-md);
+      background: #000;
+      box-shadow: var(--shadow-rest);
+    }
+
+    .article__body :global(a) {
+      color: var(--vermillion);
+      text-underline-offset: 0.15em;
+    }
+
+    .article__body :global(blockquote) {
+      margin: 1.25rem 0;
+      padding-left: 1rem;
+      border-left: 1px solid var(--hairline);
+      color: var(--ink);
+    }
+
+    .article__tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      list-style: none;
+      padding: 0;
+      margin-top: 2.5rem;
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--muted-strong);
+    }
+
+    .article__tags li {
+      background: var(--surface-sunk);
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-pill);
+    }
+
+    .footer {
+      border-top: 1px solid var(--hairline);
+      padding-block: 2.5rem;
+    }
+
+    .footer__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+      color: var(--muted-strong);
+    }
+  </style>
+</BaseLayout>

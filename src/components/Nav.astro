@@ -1,0 +1,78 @@
+---
+const { name = "Kyungjin Oh" } = Astro.props;
+---
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a href="/" class="nav__name">{name}</a>
+  </div>
+</header>
+
+<style>
+  .nav {
+    position: fixed;
+    inset: 0 0 auto 0;
+    z-index: var(--z-sticky);
+    background: color-mix(in srgb, var(--surface) 82%, transparent);
+    backdrop-filter: saturate(1.1) blur(8px);
+    border-bottom: 1px solid transparent;
+    transition:
+      border-color var(--dur-mid) var(--ease-out-quart),
+      background var(--dur-mid) var(--ease-out-quart);
+  }
+
+  /* Hairline appears only once the page is scrolled, keeping the top clean. */
+  :global(body.is-scrolled) .nav {
+    border-bottom-color: var(--hairline);
+  }
+
+  .nav__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--nav-h);
+  }
+
+  .nav__name {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: clamp(0.72rem, 1.8vw, 0.95rem);
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  .nav__name:hover {
+    color: var(--vermillion);
+    text-decoration: none;
+  }
+
+  /* Over the video hero (top of homepage), the bar is transparent and the
+     name reads white. Once scrolled, the nav gains a white background and the
+     name returns to ink. */
+  :global(body.has-video-hero:not(.is-scrolled)) .nav {
+    background: transparent;
+    backdrop-filter: none;
+  }
+
+  :global(body.has-video-hero:not(.is-scrolled)) .nav__name {
+    color: #fff;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+  }
+
+  :global(body.has-video-hero:not(.is-scrolled)) .nav__name:hover {
+    color: #fff;
+    opacity: 0.85;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .nav {
+      backdrop-filter: none;
+      background: var(--surface);
+    }
+  }
+</style>

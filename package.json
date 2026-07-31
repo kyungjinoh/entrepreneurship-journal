@@ -1,0 +1,21 @@
+{
+  "name": "entrepreneurship-journal",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A personal builder's log — entrepreneurship and engineering, project by project.",
+  "author": "Kyungjin Oh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^7.0.7"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

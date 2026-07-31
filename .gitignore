@@ -1,0 +1,25 @@
+# dependencies & build
+node_modules/
+dist/
+.astro/
+.DS_Store
+
+# local env / tooling
+.env
+.env.*
+!.env.example
+
+# source media kept outside public/ (too large or already copied into public/)
+/Video 1.mp4
+/Video 2.MOV
+/Video 3.mov
+/Video 4.mp4
+/Untitled design (1).mp4
+/Screen Recording*.gif
+/profilepic.png
+/thoughts-on-positivity-it-always-seems-impossible-1.jpg
+
+# editor / OS
+*.log
+.vscode/
+.idea/

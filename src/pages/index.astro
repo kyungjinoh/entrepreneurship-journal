@@ -1,0 +1,222 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Nav from "../components/Nav.astro";
+import Hero from "../components/Hero.astro";
+import Marquee from "../components/Marquee.astro";
+import BuildLogCard from "../components/BuildLogCard.astro";
+
+const NAME = "Kyungjin Oh";
+
+const logs = await getCollection("buildlogs");
+
+const sorted = logs.sort((a, b) => {
+  if (a.data.order !== b.data.order) return a.data.order - b.data.order;
+  return b.data.date.valueOf() - a.data.date.valueOf();
+});
+
+const featured = sorted.filter((l) => l.data.featured && !l.data.additional);
+const additional = sorted.filter((l) => l.data.additional);
+const rest = sorted.filter((l) => !l.data.featured && !l.data.additional);
+
+const hasLogs = sorted.length > 0;
+
+const thumbs = sorted
+  .filter((log) => log.data.image)
+  .map((log) => ({
+    title: log.data.title,
+    image: log.data.image!,
+    imageAlt: log.data.imageAlt,
+    href: `/log/${log.id}`,
+    coverType: log.data.coverType,
+  }));
+
+function cardProps(log: (typeof sorted)[number], variant: "feature" | "grid") {
+  return {
+    title: log.data.title,
+    titleLead: log.data.titleLead,
+    summary: log.data.summary,
+    status: log.data.status,
+    image: log.data.image,
+    imageAlt: log.data.imageAlt,
+    coverType: log.data.coverType,
+    yearLabel: log.data.yearLabel,
+    showYear: Boolean(log.data.yearLabel) && !log.data.additional,
+    showStatus: !log.data.additional,
+    featured: log.data.featured,
+    href: `/log/${log.id}`,
+    variant,
+  };
+}
+---
+
+<BaseLayout
+  title={`${NAME} — Entrepreneurship & Engineering Journal`}
+  bodyClass="has-video-hero"
+>
+  <Nav name="Kyungjin Oh's Entrepreneurship / Engineering Journal" />
+  <main id="main">
+    <Hero name={NAME} />
+    <Marquee items={thumbs} />
+
+    <div class="wrap">
+      {
+        hasLogs ? (
+          <>
+            {featured.length > 0 && (
+              <section class="section" aria-labelledby="featured-heading">
+                <div class="section__head">
+                  <h2 id="featured-heading" class="section__title">
+                    Favorites
+                  </h2>
+                  <p class="section__note">
+                    Projects I loved and spent time the most
+                  </p>
+                </div>
+                <div class="featured-grid">
+                  {featured.map((log) => (
+                    <BuildLogCard {...cardProps(log, "feature")} />
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {rest.length > 0 && (
+              <section class="section" aria-labelledby="all-heading">
+                <div class="section__head">
+                  <h2 id="all-heading" class="section__title">
+                    All builds
+                  </h2>
+                  <p class="section__note">
+                    {rest.length + featured.length} projects and counting.
+                  </p>
+                </div>
+                <div class="all-grid">
+                  {rest.map((log) => (
+                    <BuildLogCard {...cardProps(log, "grid")} />
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {additional.length > 0 && (
+              <section class="section" aria-labelledby="additional-heading">
+                <div class="section__head">
+                  <h2 id="additional-heading" class="section__title">
+                    Additional
+                  </h2>
+                  <p class="section__note">Extra notes and reflections.</p>
+                </div>
+                <div class="all-grid">
+                  {additional.map((log) => (
+                    <BuildLogCard {...cardProps(log, "grid")} />
+                  ))}
+                </div>
+              </section>
+            )}
+          </>
+        ) : (
+          <section class="section empty">
+            <h2 class="section__title">No build logs yet</h2>
+            <p class="empty__text">
+              The first entry is on its way. This is where the projects will
+              live — one image, one story, one build at a time.
+            </p>
+          </section>
+        )
+      }
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>&copy; {new Date().getFullYear()} {NAME}</span>
+      <span class="footer__tag">Tech for Good.</span>
+    </div>
+  </footer>
+
+  <style>
+    .section {
+      margin-block: clamp(2.5rem, 6vw, 4.5rem);
+    }
+
+    .section__head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.75rem;
+      padding-bottom: 0.9rem;
+      border-bottom: 1px solid var(--hairline);
+    }
+
+    .section__title {
+      font-size: clamp(1.6rem, 3.5vw, 2.25rem);
+    }
+
+    .section__note {
+      color: var(--muted-strong);
+      font-size: 0.95rem;
+      text-align: right;
+    }
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: clamp(1.25rem, 3vw, 2rem);
+    }
+
+    .all-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: clamp(1.25rem, 3vw, 2rem);
+    }
+
+    .empty {
+      text-align: center;
+      padding-block: clamp(3rem, 10vw, 6rem);
+    }
+
+    .empty__text {
+      max-width: 44ch;
+      margin-inline: auto;
+      margin-top: 1rem;
+      color: var(--muted-strong);
+    }
+
+    .footer {
+      border-top: 1px solid var(--hairline);
+      margin-top: clamp(3rem, 8vw, 6rem);
+      padding-block: 2.5rem;
+    }
+
+    .footer__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+      color: var(--muted-strong);
+    }
+
+    @media (max-width: 520px) {
+      .section__head {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.35rem;
+      }
+      .section__note {
+        text-align: left;
+      }
+    }
+  </style>
+
+  <script>
+    const onScroll = () => {
+      document.body.classList.toggle("is-scrolled", window.scrollY > 8);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  </script>
+</BaseLayout>
