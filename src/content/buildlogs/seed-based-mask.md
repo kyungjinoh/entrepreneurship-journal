@@ -20,13 +20,19 @@ tags: ["Seed","Based","Mask"]
 
 Back when the covid was a big thing in the world, I always wondered where all the masks that are merely thrown away go? After a little research, I found out that they mostly go to landfills because they are made up of plastics that can't be recycled. I thought, "what if I make the mask biodegradable and second, make the plant grow out of mask that we've thrown away into the soil. And, what if the plant from the seed that is thrown away can be reused to make the mask again. Then, it closes the loop of the sustainable cycle of the environment. That was how I came up with this idea: a completely biodegradable plant seed-based mask filter that not only filters effectively but also contributes to environmental sustainability after disposal.
 
+## Designing the research
+
 For this research, I contacted the Professor who previously helped me up on the IGEM competition again. Afterward, I immediately began researching, first on my own. My goal was to use PLA and embed hairy seeds from dandelion (Taraxacum) and Asclepias (milkweed) using beeswax adhesive. These seed will help filter both mechanically and by electrostatic attraction by triboelectric charging. Once PLA degrade in soil, seed could be exposed and then germinate.
+
+## Building the first prototype
 
 The process began in the Professor's lab.
 
 ![](/images/image76.png)
 
 First, I separated each layer of the 4-layer PLA mask. Beeswax is a good adhesive due to it's antibacterial property. I melted it to attach seed evenly across the mask. Beeswax is good adhesive since it is antibacterial. Initially, we used minimal beeswax, but seed detached during the handling. By increasing the amount of adhesive, we could solve this issue.
+
+## Filtration testing
 
 Afterward, I tried on filtration testing on smoke-induced particulate chamber to measure PM2.5 and PM10 reduction.
 
@@ -36,11 +42,15 @@ Then, I compared the result from a multi-layered filter structure with seedless 
 
 ![](/images/image124.png)
 
+## Challenges and redesign
+
 However, excessive beeswax restricted airflow. Breathing through beeswax was tough. Due to uneven seed density, it led to uneven filtration efficiency across the mask. This manually attaching seed by beeswax also make mass production hard.
 
 I decided to redesign this. I tried thinner wax coating and mixed seed density but none solved the issue. The final solution I made was to embed the seed between the multiple layers of mask and it worked perfectly, which means it didn't impede breathability while it is still sustainable and filterable.
 
 ![](/images/image13.png)
+
+## Final result and reflection
 
 This is the end result:
 

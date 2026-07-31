@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 }
 
 const { log } = Astro.props;
-const { Content } = await render(log);
+const { Content, headings } = await render(log);
 
 const lead = log.data.titleLead?.trim();
 const rest =
@@ -27,6 +27,10 @@ const showYear = Boolean(log.data.yearLabel) && !log.data.additional;
 const showStatus = !log.data.additional;
 const cover = log.data.image;
 const coverType = log.data.coverType ?? "image";
+
+// TOC only for posts with a real section structure (2+ headings).
+const toc = (headings ?? []).filter((h) => h.depth === 2 || h.depth === 3);
+const showToc = toc.filter((h) => h.depth === 2).length >= 2;
 ---
 
 <BaseLayout title={`${log.data.title} — Kyungjin Oh`} description={log.data.summary}>
@@ -87,6 +91,26 @@ const coverType = log.data.coverType ?? "image";
             />
           )}
         </figure>
+      )
+    }
+
+    {
+      showToc && (
+        <nav class="article__toc" aria-label="Table of contents">
+          <p class="article__toc-label">Contents</p>
+          <ol class="article__toc-list">
+            {toc.map((h) => (
+              <li
+                class:list={[
+                  "article__toc-item",
+                  `article__toc-item--h${h.depth}`,
+                ]}
+              >
+                <a href={`#${h.slug}`}>{h.text}</a>
+              </li>
+            ))}
+          </ol>
+        </nav>
       )
     }
 
@@ -191,6 +215,55 @@ const coverType = log.data.coverType ?? "image";
       margin-bottom: 2rem;
     }
 
+    .article__toc {
+      margin: 0 0 2.25rem;
+      padding: 1.1rem 1.25rem 1.2rem;
+      background: var(--surface-sunk);
+      border: 1px solid var(--hairline);
+      border-radius: var(--radius-md);
+    }
+
+    .article__toc-label {
+      margin: 0 0 0.65rem;
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted-strong);
+    }
+
+    .article__toc-list {
+      margin: 0;
+      padding-left: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .article__toc-item {
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      line-height: 1.4;
+      color: var(--ink-soft);
+    }
+
+    .article__toc-item--h3 {
+      margin-left: 0.85rem;
+      font-size: 0.9rem;
+      list-style-type: circle;
+    }
+
+    .article__toc-item a {
+      color: var(--ink-soft);
+      text-decoration: none;
+    }
+
+    .article__toc-item a:hover {
+      color: var(--vermillion);
+      text-decoration: underline;
+    }
+
     .article__figure {
       margin: 0 0 2.5rem;
       border-radius: var(--radius-lg);
@@ -224,6 +297,7 @@ const coverType = log.data.coverType ?? "image";
       color: var(--ink);
       margin: 2.4rem 0 0.85rem;
       text-wrap: balance;
+      scroll-margin-top: calc(var(--nav-h) + 0.75rem);
     }
 
     .article__body :global(h3) {
@@ -232,6 +306,7 @@ const coverType = log.data.coverType ?? "image";
       color: var(--ink);
       margin: 1.8rem 0 0.65rem;
       text-wrap: balance;
+      scroll-margin-top: calc(var(--nav-h) + 0.75rem);
     }
 
     .article__body :global(ul),

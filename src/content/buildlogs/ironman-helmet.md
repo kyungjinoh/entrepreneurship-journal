@@ -116,3 +116,5 @@ Then, I glueguned the magnet for components that should stick-and-detach. Then, 
 Then, I started spraying filler spray and metallic spray to give color to the helmet.
 
 ![](/images/image16.gif)
+
+⚠️ This project isn't fully completed. I will update the progress in a meantime ⚠️
