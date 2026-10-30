@@ -2,11 +2,11 @@
 title: "Orange Peel Candle: Upcycling Orange Peel into Sustainable Candle"
 titleLead: "Orange Peel Candle"
 date: 2024-06-01
-summary: "For environmental sustainability, I upcycled orange peel into sustainable, orange-scented candles and donated to underserved families."
+summary: "Upcycling orange peel into sustainable, orange-scented candles, then giving them to refugees."
 status: "Shipped"
 featured: false
 additional: false
-order: 8
+order: 9
 yearLabel: "2024"
 image: "/images/image23.jpg"
 imageAlt: "Orange Peel Candle"
@@ -18,7 +18,7 @@ tags: ["Orange","Peel","Candle"]
 
 There is two thing humanity can do to save ourselves from global warming. Option 1 is to support environmental sustainability, and option 2 is to escape the planet (which Elon Musk is doing). Since I can't fly rocket to Mars as of right now, I decided to support environmental sustainability. I saw from the news that burning a single traditional candle emits about 0.15 to 2.5 kg of CO2e over its lifespan, alongside millions of invisible ultrafine soot particles and volatile organic compounds. My solution was to upcycle orange peel into sustainable candles.
 
-P.s. before I start, I am sorry that I forgot to take a photos along the way that I couldn't show process. Just in case you are curious, here is how to make it that you can follow in your home
+P.s. before I start, I am sorry that I forgot to take photos along the way, so I cannot show the process in pictures. Just in case you are curious, here is how to make it at home.
 
 Most orange peel candle use the orange peel as a base without cutting all of them and drawing out scent from it. However, I extracted orange peel scent directly from orange peel and used aging technique to embed the scent into vegetable oil, which will be ingredient for candle.
 
@@ -66,10 +66,10 @@ I then mixed wax and orange oil in 3:1 ratio (this is golden ratio). Then, I sti
 
 ## Step 6. Prepare the wix
 
-Attach cotton wicks on the container and pour in the wax+orange oil mixture into the container. Hold the wicks that way using chopsticks like the image below until the wix solidifies and lastly, trim the wicks.
+Attach cotton wicks on the container and pour in the wax+orange oil mixture into the container. Hold the wicks with chopsticks until the wax solidifies, and lastly trim the wicks.
 
 Why did why use beeswax? It's because beeswax is renewable, biodegradable, and burns longer. Some might wonder whether orange peel scent become toxic when burnt. My answer is no. Because I am using oil infusion, concentration of limonene is much lower than in concentrated essential oil. This means lower risk of irritation than conventional oil.
 
 ## Sharing this candle with the rest of the world
 
-Product and technology that doesn't impact the world is not real product nor technology. So, I decided to donate this candles to an organization. After searching few in the internet, I found out that Baraka Library, which is not a real library but an organization that houses Muslim families in poverty, is accepting donation. Few days after I made this candle, I visited their houses and donated 100 candles. They loved it:)
+Product and technology that doesn't impact the world is not real product nor technology. So, I decided to give these candles to refugees. After searching online, I found Baraka Library, which is not a real library but an organization that houses Muslim families in poverty, including refugee families. A few days after I made the candles, I visited and donated 100 candles. They loved it:)

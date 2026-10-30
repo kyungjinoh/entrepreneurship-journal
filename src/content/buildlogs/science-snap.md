@@ -6,13 +6,15 @@ summary: "Science is presented as a boring and hard subject to students. Blog or
 status: "In Progress"
 featured: false
 additional: false
-order: 6
+order: 7
 yearLabel: "2024-Present"
 image: "/images/image115.png"
 imageAlt: "Science Snap"
 coverType: "image"
 tags: ["Science","Snap"]
 ---
+
+Live site: [sciencesnap.org](https://sciencesnap.org)
 
 P.s. I'm writing this after a while I started this project so I couldn't take all the pictures. Hope you understand.
 
@@ -56,7 +58,7 @@ Now, after structuring leadership position and organization, now my step was to 
 
 ## Scaling the Organization
 
-After setting up this structure, aiming and articulating clearly to chapter leaders every month that we should write article every 1-2 months, our platform quickly grew. Now, there is over 130 posts in our website.
+After setting up this structure, aiming and articulating clearly to chapter leaders every month that we should write article every 1-2 months, our platform quickly grew. Now, writers have put up 120 STEM posts on our website.
 
 ![](/images/image102.png)
 
@@ -64,7 +66,7 @@ I set up Instagram page. I post our post on reddit. I sent to my friends. I post
 
 ![](/images/image120.jpg)
 
-Now, everything was consistency. Result was profounding. I got 1.5k+ subscribers in our mailing list. Got 1M impression (maybe more since tracking data before 2025 March was erased).
+Now, everything was consistency. Result was profounding. I got 1K blog subscribers and 1.5M impressions (maybe more since tracking data before 2025 March was erased). We grew 15 student chapters across 10 countries.
 
 ![](/images/image6.png)
 

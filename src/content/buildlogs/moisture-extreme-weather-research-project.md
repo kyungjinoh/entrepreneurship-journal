@@ -2,7 +2,7 @@
 title: "Moisture & Disaster Prevention Research Project: Finding Pattern Where None Should Exist"
 titleLead: "Moisture & Disaster Prevention Research Project"
 date: 2026-07-20
-summary: "I found a predictive pattern in moisture data previously thought to be noise by scientists and used it to predict storms and rainfall."
+summary: "Uncovered hidden patterns in atmospheric moisture noise using unsupervised ML, identifying a vertically aligned regime correlated with extreme weather events. Published in IEEE."
 status: "Shipped"
 featured: true
 additional: false
@@ -16,17 +16,25 @@ tags: ["Moisture","Extreme","Weather","Research"]
 
 ## Why did I do this?
 
-This project started out of my curiosity in biology class of whether there will be patterns in noisy moisture increments. The ultimate purpose of this project, however, is to enhance disaster production with greater accuracy so that no one is dying of wrong weather forecasts of extreme disaster.
+This idea began somewhere unexpected: AP Economics. I had already been interested in climate and humidity, but one day in class the teacher remarked that maximizing profit means analyzing costs as carefully as revenue. That stuck. Climate centers do something similar with humidity. They combine readings from ground stations and satellites into one final value, then ignore the originals. What if the ignored raw values still carry a signal?
+
+I extracted the discarded residuals between the raw and final humidity values (what I call moisture increment, or &Delta;q) and fed them into machine learning to study natural disasters. Fitting for an idea born in economics, the measurement is cost-efficient and needs no extra instruments. I later published it in an IEEE journal.
+
+AP Biology sharpened the climate side of the question (moisture and extreme weather), and reading ISEF work like Matteo Paz on signals in noisy space data gave me courage to treat "noise" as something worth interrogating.
+
+![](/images/image34.png)
+
+(Matteo Paz / NEOWISE paper that pushed me to look for signal inside noise)
+
+The framing that made the project click, though, was the econ habit of looking at the overlooked cost side of the ledger.
 
 ## Easy Overview
 
 ### Inspiration & Research Question
 
-This project, which is one of my favorites, started from curiosity in AP Biology class. We were learning about hydrogen bonds in water and I learned that moisture, basically water vapor held together by hydrogen bonds, is the cause of most extreme weather disasters. Storms and flood kill thousands of people every year. At the same time I was reading ISEF-winning papers for fun. It was Matteo Paz's work on pulling real signals out of what looked like pure noise in space telescope data. So I thought: what if I apply this in the moisture and what if the "noise" in weather moisture data wasn't random after all?
+AP Econ gave me the lens. Profit is a gap. Weather reanalysis has a gap too: raw forecast versus final corrected humidity. Scientists often treat that leftover as random error. I decided to question whether that leftover held structure tied to storms and floods.
 
-![](/images/image34.png)
-
-Weather models take raw moisture data, also collect them using satellites, weather stations, and physics, put it into one formula, and recalculate moisture data. Scientists treat the difference between the raw forecast and the final corrected data, or recalculated data through reanalysis, as random error. I call this random error "moisture increment", or &Delta;q. Everyone assumes that there is no pattern and it is random error and noise. I decided to question this.
+Weather models take raw moisture data from satellites, weather stations, and physics, put it into one formula, and recalculate moisture data. Scientists treat the difference between the raw forecast and the final corrected reanalysis as random error. I call this "moisture increment", or &Delta;q. Everyone assumes it is noise. I decided to question this.
 
 ### Designing and Conducting the Research
 
@@ -40,7 +48,7 @@ Once the data was in, the first two tests I ran were spatial recurrence and conn
 
 ![](/images/image10.png)
 
-There were no labels in the dataset, instead of supervised methods, I used unsupervised machine learning to find hidden patterns (also called regime) in moisture dataset: HMM, k-means, GMM, and self-organizing maps. One regime R4 was interesting! R4 was a high-magnitude correction that was vertically aligned. It showed up most in summer, where moisture disaster was at peak, and it showed least during winter.
+There were no labels in the dataset, instead of supervised methods, I used unsupervised machine learning to find hidden patterns (also called regime) in moisture dataset: HMM, k-means, GMM, and self-organizing maps. One regime R4 was interesting! R4 was a high-magnitude correction that was vertically aligned. It showed up most in summer, when moisture-related disasters peak, and it showed least during winter.
 
 (The mistake I made was that I accidentally averaged the data over the region and lost local picture over the region. But even when I redo the entire pipeline with localized moisture data, almost same result came out. )
 
@@ -62,7 +70,7 @@ The next paper I read was super interesting, which was "[A Sub-Millisecond Fouri
 
 ![](/images/image34.png)
 
-It was AP Bio class. We were learning about hydrogen bond in water, where I came to realize that moisture, which are made out of bunch of water molecules bonded by hydrogen bond, is the root of most of the extreme weather disaster. At the same time, it is that extreme weather disaster that is killing thousands of people around the world annually (who knows? Maybe some gigantic hurricane will arrive to earth and destroy the entire humanity?). I immediately decided to take inspiration from Matteo Paz's article and use machine learning to find pattern in moisture dataset and use that to predict extreme weather (yep hopefully it should work).
+Around the same stretch, AP Bio had us on hydrogen bonds in water, which sharpened why moisture sits at the root of so many extreme weather disasters. That climate curiosity lined up with something I had already been chewing on from AP Econ: just as profit analysis cannot ignore costs, climate reanalysis should not ignore the raw-versus-final residual. Matteo Paz's article gave me a concrete example of pulling signal out of "noise." Putting those together, I decided to use machine learning on moisture residuals and see whether they tracked extreme weather.
 
 ### January 15-16th, 2026
 
@@ -78,7 +86,7 @@ I decided to define the difference between the raw moisture data (also called en
 
 I initially tried to export the entire dataset from 1940 to the present and moisture data around the world. It took a heck of a long hours and realized my computer will die of age soon. Chaning plan! I will just analyze from 2019-2021 at 12 hour time interval at 3 elevation in western U.S.. This is still enough data (but not redundant) to apply machine learning.
 
-I also changed the method I export a bit. Previously, I used the website itself to export the .nc file. However, because I encountered error, which i still couldn't figure out why it happened. It said the download failed. So I thought "what if I just use API key to import it directly through terminal?" And yep! That's what I did and I couldn't successfully import the database which took several hours even after I reduced the scope of the dataset.
+I also changed the method I export a bit. Previously, I used the website itself to export the .nc file. However, because I encountered error, which i still couldn't figure out why it happened. It said the download failed. So I thought "what if I just use API key to import it directly through terminal?" And yep! That's what I did, and I successfully imported the database, which still took several hours even after I reduced the scope of the dataset.
 
 ![](/images/image4.png)
 

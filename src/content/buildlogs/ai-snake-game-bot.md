@@ -2,11 +2,11 @@
 title: "AI Snake Game Bot: Discovering Pythagorean Theorem through AI Snake Game Project in CS class!"
 titleLead: "AI Snake Game Bot"
 date: 2026-06-08
-summary: "AI snake game bot using q-learning algorithm, built using Java Swing. I naturally discovered Pythagorean Theorem through this computer science class final project."
+summary: "How developing a Q-learning-based AI to play the Snake game allowed me to naturally derive the Pythagorean Theorem."
 status: "Shipped"
 featured: false
 additional: false
-order: 4
+order: 5
 yearLabel: "2026"
 image: "/images/ai-snake-thumbnail.jpg"
 imageAlt: "AI Snake Game Bot"

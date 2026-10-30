@@ -6,7 +6,7 @@ summary: "Academic research on engineering biodegradable mask that filters air a
 status: "Shipped"
 featured: false
 additional: false
-order: 5
+order: 6
 yearLabel: "2024"
 image: "/images/image89.png"
 imageAlt: "Seed-Based Mask"
@@ -57,3 +57,5 @@ This is the end result:
 ![](/images/image65.png)
 
 This was one of my earliest research project ever. I got a lot of help from the professor, yet I failed the most while working on this project. I know that this mask needs a lot of iterations to be actual product, but I hope one day, everyone is wearing a mask with the seeds in it!
+
+I published this work in the IYRC Journal: [journal.the-iyrc.org/jiyrc2025i12-kyungjin-oh.html](https://journal.the-iyrc.org/jiyrc2025i12-kyungjin-oh.html).

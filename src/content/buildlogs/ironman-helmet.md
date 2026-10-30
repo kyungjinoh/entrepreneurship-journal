@@ -1,38 +1,56 @@
 ---
-title: "Brain-controlled Ironman Helmet: How AI creativity study led to development of Ironman Helmet with VR display"
+title: "Brain-controlled Ironman Helmet: How my study of creativity in AI led to an Ironman helmet with EEG BCI"
 titleLead: "Brain-controlled Ironman Helmet"
 date: 2026-01-13
-summary: "Ironman helmet with built-in EEG-based brain-computer interface. Started from my small goal of making my AI scientist to publish paper in the Korean military."
+summary: "How my study of creativity in AI led to the development of an Ironman helmet with a built-in EEG-based brain-computer interface."
 status: "In Progress"
 featured: false
 additional: false
 order: 3
 yearLabel: "2026-Present"
-image: "/images/image59.png"
-imageAlt: "Ironman Helmet"
+image: "/images/image20.png"
+imageAlt: "Ironman helmet 3D model"
 coverType: "image"
 tags: ["Ironman","Helmet"]
 ---
 
 ## How did I start this project?
 
-First, I want to explain a bit about my background. I am Korean, which means I have to go to the Korean mandatory military for 2 YEARS. However, I didn't want those two years to stop my academic research / study journey as a scientist and engineer. So, the solution I came up with is an autonomous AI scientist who can gather data and conduct tedious process that drains up all my time, so that AI conduct experiment during the training time in the military with the hypothesis and idea I came up with during rest period (in korean military, 6PM-10PM is the rest time where I have access to phone. In that time, I will read papers and come up with hypotheses. While I am training AI handles the rest).
-
-(me in couple of years lol)
-
-One of the critical component that current AI scientists don't have is creativity. Creativity is something that no one has. I thought it would be cool if my AI scientist is creative! I spent the next 2 weeks researching a lot about human creativity (this is my [research log](https://drive.google.com/drive/folders/1vBUY8TGrRN4bFpv7j8I4xqeOKUKoT2u3?usp=sharing) if you want to take a look).
+I spent a couple of weeks researching human creativity, how the brain actually generates ideas (this is my [research log](https://drive.google.com/drive/folders/1vBUY8TGrRN4bFpv7j8I4xqeOKUKoT2u3?usp=sharing) if you want to take a look).
 
 ![](/images/image103.png)
 
 (part of my AI creativity research log)
 
-While working on that, I thought it would be cool if I could scan my own brain to see how creativity works in my own brain! That's how I came up with the idea to make my own EEG headset to scan my own brain. Along the way, I my friend messaged me this, which I thought was good idea.
+While working on that, I thought it would be cool if I could scan my own brain to see how creativity works in my own brain! That's how I came up with the idea to make my own EEG headset to scan my own brain. Along the way, my friend messaged me this, which I thought was a good idea.
 
 ![](/images/image26.png)
 
 (what my friend said)
 
 It was a nice idea! That's how this project started.
+
+## Logo creation (I struggled a lot)
+
+Early on, I spent hours on an Ironman helmet logo that lived only in my notebook while other projects actually shipped. Later, when the helmet became a real build, I kept iterating logos anyway. Classic red and gold faceplate, glowing arc reactor, shield mashups, black and white silhouette. None of them felt right on the first try.
+
+![](/images/ironman-logo-1.png)
+
+(classic red and gold faceplate)
+
+![](/images/ironman-logo-2.png)
+
+(glowing arc reactor mark)
+
+![](/images/ironman-logo-3.png)
+
+(red and yellow shield-style mashup)
+
+![](/images/ironman-logo-4.png)
+
+(black and white helmet silhouette)
+
+Logo design took way more time and second guessing than I expected. Still iterating.
 
 ## Overview
 
@@ -95,7 +113,7 @@ To make this, I had to order glass lens and use 3d printing to make the hardware
 
 ![](/images/image61.png)
 
-(top left is 3d model i designed and right is the actual printed product. Bottom left is the initial sketch)
+(first is the Onshape 3d model, then the printed headset, then the initial paper sketch)
 
 Then, I will embed this thing into my helmet. After tinkering around with Blender, I made an ironman helmet and VR display embedded inside.
 

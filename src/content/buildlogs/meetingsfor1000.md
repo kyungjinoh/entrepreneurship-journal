@@ -2,12 +2,12 @@
 title: "MeetingsFor1000: Helping founders land investor meetings"
 titleLead: "MeetingsFor1000"
 date: 2025-01-01
-summary: "Platform that provides founders with a meeting link for investor calls. I learned important moral lessons that define who I am."
-status: "In Progress"
+summary: "Platform that connected founders with investor meeting links. I shut it down after realizing growth was creating costs for investors, and that lesson defines who I am."
+status: "Shipped"
 featured: false
 additional: false
-order: 7
-yearLabel: "2025-Present"
+order: 8
+yearLabel: "2025"
 image: "/images/mf1000-image10.png"
 imageAlt: "MeetingsFor1000"
 coverType: "image"
@@ -54,7 +54,7 @@ Now is the time for the actual marketing! I primarily used LinkedIn and X
 
 ![](/images/mf1000-image6.png)
 
-There, I generated about 40k+ views, which was enough to attract about 200 users to our website. Through word-of-mouth and constant referrals by users, our app quickly spread across social media. Many users thanked me a lot for making this website and I was so happy that many founders are easily booking meetings with investors through our website.
+There, I generated about 40k+ views, which was enough to attract about 200 users to our website. At 199 users, I refreshed the dashboard. At 200, I pasted a screenshot into this journal under Launching and growing!!! (my favorite). At 201, I decided it was already outdated and replaced it. Through word-of-mouth and constant referrals by users, our app quickly spread across social media.
 
 ![](/images/mf1000-image2.png)
 
@@ -66,23 +66,31 @@ There, I generated about 40k+ views, which was enough to attract about 200 users
 
 ![](/images/mf1000-image5.png)
 
-There was even a founder who secured $50k+ through our website.
+Then strangers thanked me. Ziad was one of them. He reported a $50,000 commitment from an angel investor after using the site. I saved his message, then refreshed my analytics again.
 
 ![](/images/mf1000-image1.png)
 
-The website grew up to 1k+ users (updated: 2k now).
+The site quickly surpassed my target of 1,000 users. At two thousand users, I added “(updated: 2k now)” to this journal.
 
 ![](/images/mf1000-image8.png)
 
+(later analytics under the Sigan name after a redeploy. Same product. This dashboard snapshot shows about 1.1K active users on that view.)
+
 ## Choosing Ethics Over Growth
 
-However, as time passed, I got a lot of complaints from founders that our platform might be a bit too spammy.
-
-![](/images/mf1000-image14.png)
+But another message from Ziad warned that careless bookings could damage founders' reputations with investors. I had helped open a door for him, but could this also make the next door harder to open?
 
 ![](/images/mf1000-image11.png)
 
-For months, I measured MeetingsFor1000 by how effectively it solved the problem I had identified. Founders needed access to investors, and my website made that access easier. But the complaints forced me to look at the other side of the transaction. Every shortcut I created for a founder could become another interruption for an investor. I had built a tool to remove friction, without fully considering who would absorb it. For the first time, I questioned whether making something easier for my users automatically made it better for everyone affected by it.
+(Ziad's warning about reputation with VCs)
+
+I also got complaints that the platform might be a bit too spammy.
+
+![](/images/mf1000-image14.png)
+
+(spam concern from users)
+
+For months, I measured MeetingsFor1000 by how effectively it solved the problem I had identified. Founders needed access to investors, and my website made that access easier. Ziad's warning forced me to look at the other side of the transaction. Every shortcut I created for a founder could become another interruption for an investor. I had built a tool to remove friction, without fully considering who would absorb it. For the first time, I questioned whether making something easier for my users automatically made it better for everyone affected by it.
 
 This is the side effect that I completely ignored when I first started this project. I started to ask this question: should I shut down this website or keep maintaining and growing it so that I can get more users? I spent quite a lot of time thinking about this.
 
@@ -94,4 +102,8 @@ This way, the website came to an end.
 
 ## Reflection:
 
-The hardest part of shutting down MeetingsFor1000 was that the project was not an obvious failure. People were using it. Founders had thanked me, and at least one had reportedly raised more than $50,000 through a connection made on the platform. By conventional measures, I had built something valuable. Yet I could not ignore the complaints about unwanted outreach. I had to confront an uncomfortable possibility: a product could be successful according to its users and its growth metrics while still creating costs for others. Closing it meant accepting that success alone was not a sufficient reason to continue. Since this event, I have believed that great technology is not defined by growth alone, but by whether it creates a positive impact on society.
+The hardest part of shutting down MeetingsFor1000 was that the project was not an obvious failure. People were using it. Ziad's thank-you still made me smile, and he had reported more than $50,000 through a connection made on the platform. By conventional measures, I had built something valuable. Yet I could not ignore his warning about reputations, or the complaints about unwanted outreach. I had to confront an uncomfortable possibility: a product could be successful according to its users and its growth metrics while still creating costs for others. Closing it meant accepting that success alone was not a sufficient reason to continue. Since this event, I have believed that great technology is not defined by growth alone, but by whether it creates a positive impact on society.
+
+I kept Ziad's thank-you under Successes. I kept his warning under Lessons Learned.
+
+You can view the website here: [meetingsfor1000.com](https://meetingsfor1000.com), although it is currently blocked. MeetingsFor1000 and Sigan are the same product under two names.

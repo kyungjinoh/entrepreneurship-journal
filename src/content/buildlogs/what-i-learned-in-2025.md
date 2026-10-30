@@ -6,7 +6,7 @@ summary: "2025 was a big year for me where I learned a lot of important lessons.
 status: "Shipped"
 featured: false
 additional: true
-order: 13
+order: 14
 image: "/images/what-i-learned-2025.jpg"
 imageAlt: "What I learned in 2025"
 coverType: "image"

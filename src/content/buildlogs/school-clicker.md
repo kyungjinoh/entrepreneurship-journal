@@ -2,7 +2,7 @@
 title: "SchoolClicker: Turning Clicks into Environmental Impact"
 titleLead: "SchoolClicker"
 date: 2025-01-01
-summary: "School vs school clicker game where students who clicks more win donation to environmental organization in their school's name"
+summary: "School vs school clicker game where schools compete for environmental and educational causes"
 status: "In Progress"
 featured: true
 additional: false
@@ -14,13 +14,13 @@ coverType: "image"
 tags: ["School","Clicker"]
 ---
 
-[Schoolclicker.com](http://schoolclicker.com) is a school vs. school competitive clicker game where students click to help their high school win battles against other schools, turning those simple clicks into fundraising for environmental organizations.
+[Schoolclicker.com](http://schoolclicker.com) is a school vs. school competitive clicker game where students click to earn points for their high schools on a shared leaderboard. Each click is meant to lead to environmental and educational causes.
 
 Spoil alert: I spent a lot of time in security because there was a hacker trying to take down our website for FUN.
 
 ## How did I start this project?
 
-I am passionate about giving back the love I received back to the world. The first way I thought was building a school in Africa so that kids who can't get proper education can get education for free. One way to do that was my partnership with BuildOn, nonprofit organization that builds school in Africa. After filling out partnership form, this email arrived from Erin, the founder of BuildOn:
+I am passionate about giving back the love I received back to the world. The first way I thought was building a school in Africa so that kids who can't get proper education can get education for free. One way to do that was my partnership with BuildOn, a nonprofit that builds schools in Africa. After filling out the partnership form, this email arrived from Erin Hartsough at BuildOn:
 
 ![](/images/image60.png)
 
@@ -52,7 +52,7 @@ The next thing to do is to find a people to work on this together. I recruited W
 
 ![](/images/image56.png)
 
-This immediately took off and got 24840 views. As a result, I could pick the best 50 people to work together on this.
+This immediately took off and got 24840 views. As a result, I recruited a 20-person team to work together on this.
 
 ## Marketing Before Launch
 
@@ -68,7 +68,7 @@ One problem was that I couldn't manage all 100 school ambassador, so they were n
 
 ## Launch Day
 
-It was the beginning of October that I launched. In one moment, I asked all of school ambassadors to accept the follow request. Users pour rushed into our web page.
+It was the beginning of October that I launched. In one moment, I asked all of school ambassadors to accept the follow request. Users poured into our web page.
 
 ![](/images/image99.png)
 
@@ -78,7 +78,7 @@ We ended up getting 1k+ new users on the first day of our launch! It was big suc
 
 ![](/images/image24.png)
 
-One of the great news I heard was that in Payton Highschool, 40% of students are clicking this for environmental impact. It was insane!! Starting from there, it quickly spreaded to other nearhby Chicago high schools. Then, big problem erupted: hackers.
+One of the great news I heard was that in Payton Highschool, 40% of students are clicking this for environmental impact. It was insane!! Starting from there, it quickly spread to other nearby Chicago high schools. Then, big problem erupted: hackers.
 
 ## When Things Started Breaking
 
@@ -90,9 +90,11 @@ Here was the quick reality: I couldn't solve this problem completely unless I pu
 
 This way, I safely protected attacks from hackers. This is one of the problems and there were much more attacks by hackers. I spent most of my time defending attack from hackers. It was annoying problem, but I learned about cybersecurity, so GREAT JOB HACKERS!!!
 
-## Changing the Mission
+## Making the numbers mean more
 
-Also, I previously decided to open up donation page. But I heard from a lot of user "no high school students will donate significant amount of their money". It was true. Many highschoolers hesitates to buy even $6 drink from the coffee shop. I thought it was not a good decision of fundraising $50k from them. I changed my goal from fundraising to raising enivonrmental awareness. I changed the goal from raising $50k to donating $250 of my own pocketmoney I gathered over years in the name of winning school. Even though $50k was an attractive goal, I realized that chasing a bigger number meant losing sight of the real purpose: creating environmental impact. By setting a smaller goal that I could actually fulfill, I could keep my promise to the community instead of pursuing an unrealistic target.
+After I shut down MeetingsFor1000, I opened this journal to write about it, stared at the empty space, then checked SchoolClicker's analytics. The user count had gone up. That was the uncomfortable mirror. My players clicked to see their schools climb the leaderboard. I refreshed analytics to see my user count climb. Same game, different buttons.
+
+It was time to make these numbers mean more. I had started SchoolClicker hoping students might help fundraise toward BuildOn's $50k school goal, and I had tried a donation page, but users were clear that broke high schoolers were not going to donate serious money. So a new version of the mission clicked. Each season, the winning school's name would go on a donation to BuildOn, a nonprofit building schools in Africa. Sustainability had always mattered to me, so every hundred clicks would also trigger a popup for Greenpeace's donation page. Clicks would point at environmental and educational causes without pretending teenagers would write $50k checks.
 
 ## Growing Through Social Media
 
@@ -104,7 +106,7 @@ I decided to produce social media post on my own. I used multiple accounts but t
 
 ## Results
 
-I continuously marketed this over the time through social media and viral marketing strategy and this is the user count as of July 25th. (I changed the Google Analytics tag 2 times throughout the years so there are multiple pages. But if I combine them, it totals up to 40k+ users!!!!)
+I continuously marketed this over the time through social media and viral marketing strategy and this is the user count as of July 25th. (I changed the Google Analytics tag 2 times throughout the years so there are multiple pages. But if I combine them, it totals up to over 40,000 users and about 120K visits!!!!) Guerrilla marketing and social posts spread the game to 200+ schools, with about 4M views across social posts.
 
 ![](/images/image37.png)
 
@@ -116,11 +118,11 @@ I also got a lot of clicks and #1 Lane Tech High School accumulated 76,855,489 n
 
 ![](/images/image62.png)
 
-As I promised before with users, I decided to donate $250 to environmental organization of my money I gathered for years.
+SchoolClicker eventually reached over 40,000 users. Of course I celebrated and saved the user count in this journal under Successes, right next to Ziad's thank-you from MeetingsFor1000. The winning school's name went toward the BuildOn cause, and the Greenpeace popups kept environmental and educational action in front of players as they clicked.
 
 ## Reflection
 
-Reflecting back, this might look like the most stupid, brain-rot game human've ever invented. However, I decided to turn this into environmental awareness!!!
+Reflecting back, this might look like the most stupid, brain-rot game human've ever invented. That was the point I had to confront. A meaningless number can make someone keep clicking. I wanted those numbers to mean environmental and educational impact, not just a climbing counter.
 
 It was one of the most meaningful activities I had in my life.
 

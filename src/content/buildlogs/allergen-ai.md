@@ -2,11 +2,11 @@
 title: "AllerGen AI: identify unknown allergen with AI without testing"
 titleLead: "AllerGen AI"
 date: 2025-06-01
-summary: "AI-powered allergy tracking and UNKNOWN allergen detection web app with AI insights from symptom and food analysis"
+summary: "AI-powered allergy tracking web app, identifying unknown allergens without medical tests."
 status: "Shipped"
 featured: false
 additional: false
-order: 10
+order: 11
 yearLabel: "2025"
 image: "/images/image78.png"
 imageAlt: "AllerGen AI"

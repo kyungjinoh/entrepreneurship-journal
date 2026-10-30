@@ -6,7 +6,7 @@ summary: "I tell every single thing I learned from hosting hackathons and how yo
 status: "Shipped"
 featured: false
 additional: true
-order: 12
+order: 13
 image: "/images/image51.png"
 imageAlt: "Hackathons"
 coverType: "image"

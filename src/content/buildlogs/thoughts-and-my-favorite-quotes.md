@@ -6,7 +6,7 @@ summary: "random thoughts floating in my head + my favorite quotes"
 status: "Shipped"
 featured: false
 additional: true
-order: 14
+order: 15
 image: "/images/thoughts-and-quotes.jpg"
 imageAlt: "It always seems impossible until it's done. — Nelson Mandela"
 coverType: "image"

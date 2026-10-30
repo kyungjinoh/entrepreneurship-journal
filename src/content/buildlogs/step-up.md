@@ -2,11 +2,11 @@
 title: "Step Up: Connecting Highschoolers with nonprofits and internships"
 titleLead: "Step Up"
 date: 2025-01-01
-summary: "A platform connecting high school students with internships, volunteering, and skill-building opportunities."
+summary: "AI platform connecting students with social-impact and environmental orgs for internships."
 status: "In Progress"
 featured: false
 additional: false
-order: 9
+order: 10
 yearLabel: "2025-Present"
 image: "/images/image42.png"
 imageAlt: "Step Up"
@@ -16,7 +16,7 @@ tags: ["Step"]
 
 ## How did I start?
 
-In the summer of 2025, I attended the LaunchX Entrepreneurship Program, a summer program where I met a lot of talented kids and fellow founders by the end of the program. During the program, I got close to Albert, Chase, and Kymi, who founded Step Up during the batch. What really drew me into it was their social mission to connect highschoolers with nonprofits and internships. Highschoolers are the most underused resources in the job market. And I believed if all the highschoolers volunteered and contributed to the world for social impact, I could make the world significantly better. After I finished the program, I decided to join their team to accelerate the growth of the company as a Chief Growth Officer.
+In the summer of 2025, I attended the LaunchX Entrepreneurship Program, a summer program where I met a lot of talented kids and fellow founders by the end of the program. During the program, I got close to Albert, Chase, and Kymi, and we built Step Up during the batch. What really drew me into it was the social mission to connect highschoolers with nonprofits and internships. Highschoolers are the most underused resources in the job market. And I believed if all the highschoolers volunteered and contributed to the world for social impact, I could make the world significantly better. After the program, I stayed on as a co-founder, developer, and outreach lead.
 
 ## Partnering with Organizations
 
@@ -52,7 +52,7 @@ This is the task we divided:
 
 ## Growing Our Student User Base
 
-Up to this point, we've made over 50+ partnerships with many great companies like Lumiere Education, California Journal, etc&hellip; Now, it was our time to get our customers! Our goal was to email more than 40+ schools club to ask if they are interested in this opportunity. In each school's website, they upload their school's club list with their leader's email.
+Up to this point, we've secured 40+ nonprofit partners, plus companies like Lumiere Education, California Journal, etc&hellip; Now, it was our time to get our customers! Our goal was to email more than 40+ schools club to ask if they are interested in this opportunity. In each school's website, they upload their school's club list with their leader's email.
 
 ![](/images/image122.png)
 
