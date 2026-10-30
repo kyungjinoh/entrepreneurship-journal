@@ -1,5 +1,5 @@
 ---
-title: "SchoolClicker: Turning Clicks into Environmental Impact"
+title: "SchoolClicker: Turning Clicks into Environmental and Educational Impact"
 titleLead: "SchoolClicker"
 date: 2025-01-01
 summary: "School vs school clicker game where schools compete for environmental and educational causes"
@@ -14,23 +14,27 @@ coverType: "image"
 tags: ["School","Clicker"]
 ---
 
-[Schoolclicker.com](http://schoolclicker.com) is a school vs. school competitive clicker game where students click to earn points for their high schools on a shared leaderboard. Each click is meant to lead to environmental and educational causes.
+[Schoolclicker.com](http://schoolclicker.com) is a school vs. school competitive clicker game. Students click a button to earn points for their high school on a shared leaderboard. Click, the number rises. Click again, it rises again. That was the whole premise at first.
 
 Spoil alert: I spent a lot of time in security because there was a hacker trying to take down our website for FUN.
 
-## How did I start this project?
+## Logo
 
-I am passionate about giving back the love I received back to the world. The first way I thought was building a school in Africa so that kids who can't get proper education can get education for free. One way to do that was my partnership with BuildOn, a nonprofit that builds schools in Africa. After filling out the partnership form, this email arrived from Erin Hartsough at BuildOn:
+At first I expected the logo to be a simple mark, just a bold white S on black. It felt clean and easy to stamp everywhere.
 
-![](/images/image60.png)
+![](/images/schoolclicker-logo-s.png)
 
-Afterward, I had a 30 minute meeting with Erin, where she said I have to fundraise $50k+ on my own to build a school in Africa. To raise $50k+, I started the SchoolClicker project as a fundraising project.
+(early idea: a single S)
+
+Then I switched. SchoolClicker is a clicker game, so I wanted the brand itself to feel like one. I dropped the icon and used the full word SchoolClicker in a retro pixel font instead. That version carries the vibe better than a plain letter ever did.
+
+![](/images/schoolclicker-logo.png)
+
+(final direction: SchoolClicker in a retro font)
 
 ## Building the First Version
 
-My plan was simple. I make a clicker game where multiple schools compete and I attach a fundraising link at the bottom of the page so students can donate.
-
-I started building the Vite website by using TypeScript and CSS. The website was relatively simple and I could easily build it within days. The process is simple. First, I design the figma design.
+I started building the Vite website with TypeScript and CSS. The site was relatively simple and I could get a first version up within days. First came the Figma designs.
 
 ![](/images/image57.png)
 
@@ -38,7 +42,7 @@ I started building the Vite website by using TypeScript and CSS. The website was
 
 ![](/images/image96.png)
 
-The next thing I did is to write the code. Writing code part took me long time than I thought. I won't go into details, but it was repetition of trial and error. The hardest part was optimizing screen size to every single devices, from phone to laptop. Because the design was so packed, optimization process took a lot of time to optimize for all the device. At the end of the day, I successfully wrote the code. Even though I won't mention details since all the details are small yet annoying, it took me 2 months in total to complete this website.
+Writing the code took longer than I thought. Lots of trial and error. The hardest part was fitting the packed layout onto every screen size, from phone to laptop. In total it took about 2 months to get the site solid.
 
 ![](/images/image98.png)
 
@@ -48,65 +52,73 @@ The next thing I did is to write the code. Writing code part took me long time t
 
 ## Building a Team
 
-The next thing to do is to find a people to work on this together. I recruited Woojin, my school friend, and Wyatt, friend I met in summer program, to work together on this. But it wasn't enough. I had to make this viral in the school around the world to make this work. So, I decided to make this LinkedIn post.
+I recruited Woojin, my school friend, and Wyatt, a friend from a summer program. That still was not enough if this was going to spread across schools, so I posted on LinkedIn.
 
 ![](/images/image56.png)
 
-This immediately took off and got 24840 views. As a result, I recruited a 20-person team to work together on this.
+The post took off and got 24840 views. From there I recruited a 20-person team.
 
 ## Marketing Before Launch
 
-While working on this, I remember meeting Hyunjun, an app founder who gained 6M+ users. He taught me that he used his own unique Instagram marketing strategy. Basically, he make school Instagram page for each school, set the account private, and interacts with the students there: follows the student's post and like their story. Then, student will follow back. However, they don't accept the follow request until the launch day. All at once at launch day, they accept all the follow request. Then, boom. Students get notified all at once, visit the page, and go through the link attached in the bio. I decided to use the same strategy and make 100+ pages like this.
+While working on this, I met Hyunjun, an app founder who had gained 6M+ users. His Instagram playbook was specific. Make a private school Instagram page, engage students so they follow back, but do not accept follow requests until launch day. On launch day, accept everyone at once. Notifications fire together, students hit the bio link, and traffic dumps in. I used that strategy and made 100+ pages like this.
 
 ![](/images/image82.png)
 
-Then, I picked school ambassadors in each school, gave them instagram account, and marketed the app that way.
+Then I picked school ambassadors for each school, gave them an Instagram account, and marketed that way.
 
-(by the way, I tried the same thing before to do UCLA vs USC schoolclicker. The reason why I failed was because university was sooo large that it is hard for this to go viral like what Hyunjun did. I quickly changed our target user to highschoolers)
+(by the way, I tried the same thing before for UCLA vs USC. Universities were too large for that loop to go viral the same way, so I quickly switched the target to high schoolers.)
 
-One problem was that I couldn't manage all 100 school ambassador, so they were not consistent in marketing. What I did was to divide school by region and appoint one lead of ambassador per region. That way, I could manage all the school ambassadors by just talking to lead ambassadors of each region.
+I could not manage 100 ambassadors one by one, so I grouped schools by region and appointed a lead per region. That let me run outreach through a smaller set of leads.
 
 ## Launch Day
 
-It was the beginning of October that I launched. In one moment, I asked all of school ambassadors to accept the follow request. Users poured into our web page.
+It was the beginning of October when I launched. All at once, I asked ambassadors to accept the follow requests. Users poured into the page.
 
 ![](/images/image99.png)
 
 (user count from my google analytics)
 
-We ended up getting 1k+ new users on the first day of our launch! It was big success. Yet, virality dropped down a lot by the day 2. It was a big problem. One solution I made was to form a community. I made this discord server so that users can interact and 100+ of our users joined.
+We got 1k+ new users on day one. By day two, virality dropped hard. I spun up a Discord so players could talk to each other, and 100+ users joined.
 
 ![](/images/image24.png)
 
-One of the great news I heard was that in Payton Highschool, 40% of students are clicking this for environmental impact. It was insane!! Starting from there, it quickly spread to other nearby Chicago high schools. Then, big problem erupted: hackers.
+At Payton High School, about 40% of students were clicking. From there it spread to nearby Chicago high schools. Then hackers showed up.
 
 ## When Things Started Breaking
 
-The thing is that I didn't intentionally put authentication for my website so that users can freely play. Because of that, hackers decided to manipulate the number of clicks by hacking to my firebase database and tweak the number of clicks.
+I had skipped authentication so anyone could play freely. Hackers used that to hit Firebase and fake the click counts.
 
-Here was the quick reality: I couldn't solve this problem completely unless I put authentication. After few research, I found that popcat.click used an hourly click limit per country. I did the same thing so that if the number goes up too drastically over certain point, the it stops increasing more, showing this error:
+I could not fully close that hole without auth. After some research, I copied a trick from popcat.click: an hourly click limit. If counts jumped too fast past a threshold, growth stopped and players saw this error:
 
 ![](/images/image15.png)
 
-This way, I safely protected attacks from hackers. This is one of the problems and there were much more attacks by hackers. I spent most of my time defending attack from hackers. It was annoying problem, but I learned about cybersecurity, so GREAT JOB HACKERS!!!
+That blocked a lot of attacks. There were more. I spent most of my time on security. Annoying, but I learned a lot about cybersecurity, so GREAT JOB HACKERS!!!
 
-## Making the numbers mean more
+## The turning point
 
-After I shut down MeetingsFor1000, I opened this journal to write about it, stared at the empty space, then checked SchoolClicker's analytics. The user count had gone up. That was the uncomfortable mirror. My players clicked to see their schools climb the leaderboard. I refreshed analytics to see my user count climb. Same game, different buttons.
+SchoolClicker is a great game. It is a very enjoyable game. But at some point, I was like, why am I doing this? Just for users? Just to watch a counter go up?
 
-It was time to make these numbers mean more. I had started SchoolClicker hoping students might help fundraise toward BuildOn's $50k school goal, and I had tried a donation page, but users were clear that broke high schoolers were not going to donate serious money. So a new version of the mission clicked. Each season, the winning school's name would go on a donation to BuildOn, a nonprofit building schools in Africa. Sustainability had always mattered to me, so every hundred clicks would also trigger a popup for Greenpeace's donation page. Clicks would point at environmental and educational causes without pretending teenagers would write $50k checks.
+It was then I decided the clicks had to mean something outside the leaderboard.
+
+I remembered a BuildOn thread from way earlier, back in January. BuildOn builds schools in Africa, and Erin Hartsough had emailed me then:
+
+![](/images/image60.png)
+
+We had gotten on a call, and Erin explained that building a school would take serious fundraising, around $50k+. I had parked that for a while. When I started asking why SchoolClicker existed, that January conversation came back. Asking broke high schoolers to donate that kind of money through a clicker game was not realistic anyway. Users had already told me the same when I tried a plain donation link.
+
+So I changed the model. Each season, the winning school's name would go on a donation tied to BuildOn. Every hundred clicks would also open a Greenpeace donation popup. The game stayed fun. The clicks pointed at environmental and educational impact.
 
 ## Growing Through Social Media
 
-Getting back to marketing side, I decided to collaborated with my friend Ben, who was also Instagram and Tiktok Influencer. I asked him if he could post video about our game and he said yes. First two videos got few thousand views, which wasn't too bad. But the third video really took off and I got 100k+ views! Afterward, the user count skyrocketed.
+After that, I kept pushing growth. I collaborated with my friend Ben, an Instagram and TikTok creator. The first two videos did a few thousand views. The third took off past 100k+ views, and user count jumped with it.
 
-I decided to produce social media post on my own. I used multiple accounts but this is one of it.
+I also posted on my own accounts. This is one of them:
 
 ![](/images/image91.jpg)
 
 ## Results
 
-I continuously marketed this over the time through social media and viral marketing strategy and this is the user count as of July 25th. (I changed the Google Analytics tag 2 times throughout the years so there are multiple pages. But if I combine them, it totals up to over 40,000 users and about 120K visits!!!!) Guerrilla marketing and social posts spread the game to 200+ schools, with about 4M views across social posts.
+I kept marketing through social and school networks. As of July 25th, combining Google Analytics tags I had to rotate twice, SchoolClicker reached over 40,000 users and about 120K visits. Guerrilla marketing and social posts spread it to 200+ schools, with about 4M views across posts.
 
 ![](/images/image37.png)
 
@@ -114,16 +126,16 @@ I continuously marketed this over the time through social media and viral market
 
 ![](/images/image108.png)
 
-I also got a lot of clicks and #1 Lane Tech High School accumulated 76,855,489 number of clicks.
+Lane Tech High School hit 76,855,489 clicks at #1.
 
 ![](/images/image62.png)
 
-SchoolClicker eventually reached over 40,000 users. Of course I celebrated and saved the user count in this journal under Successes, right next to Ziad's thank-you from MeetingsFor1000. The winning school's name went toward the BuildOn cause, and the Greenpeace popups kept environmental and educational action in front of players as they clicked.
+The BuildOn-linked winner and Greenpeace popups are what made those clicks mean environmental and educational impact instead of only a high score.
 
 ## Reflection
 
-Reflecting back, this might look like the most stupid, brain-rot game human've ever invented. That was the point I had to confront. A meaningless number can make someone keep clicking. I wanted those numbers to mean environmental and educational impact, not just a climbing counter.
+Looking back, SchoolClicker can still look like a silly clicker game. The important part was answering why I was building it, and making sure the answer was bigger than user count.
 
-It was one of the most meaningful activities I had in my life.
+It was one of the most meaningful projects I have built.
 
 Check out more at [Schoolclicker.com](http://schoolclicker.com)

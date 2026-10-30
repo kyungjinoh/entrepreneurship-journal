@@ -40,6 +40,12 @@ After running this automation code (for all the processes, like scraping to vali
 
 ![](/images/mf1000-image13.png)
 
+## Logo
+
+For the logo, I kept it simple. Just the word Meetingsfor1000. No icon, no fancy mark. The name itself was the logo.
+
+![](/images/mf1000-logo.png)
+
 ## Developing the Founder Platform
 
 Afterward, I worked on the website. I mainly used JavaScript and a CSS/HTML-based Vite website to power this platform. It took me a lot of time to manage to make this work, especially the Firebase (backend), and to make sure that I put a limit on the number of meeting links a founder can access in a short time. I spent about 2 weeks on the backend and another 2 weeks on the frontend. And this turned out to be the result.
