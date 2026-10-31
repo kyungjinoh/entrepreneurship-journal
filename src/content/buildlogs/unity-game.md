@@ -24,3 +24,5 @@ Something I learned along the way:
 
 - Game feels matter as much as technicality: anyone with skills can make a technically complicated game. However, if that game doesn't feel fun or convey what it should, it can never be a really GOOD game. Music taste, character design, and the color scheme matter equally as well as the coding
 - Continuous iteration: for this project, I didn't document every little iteration because it is too technical but a great game doesn't come out perfect in one shot. We need countless iterations to make it perfect.
+
+Source code: [github.com/kyungjinoh/what-a-peaceful-time](https://github.com/kyungjinoh/what-a-peaceful-time)

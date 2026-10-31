@@ -42,13 +42,11 @@ I started building the Vite website with TypeScript and CSS. The site was relati
 
 ![](/images/image96.png)
 
-Writing the code took longer than I thought. Lots of trial and error. The hardest part was fitting the packed layout onto every screen size, from phone to laptop. In total it took about 2 months to get the site solid.
+Writing the code took longer than I thought. Lots of trial and error. The hardest part was fitting the packed layout onto every screen size, from phone to laptop. In total it took about 2 months to get the first version solid.
 
 ![](/images/image98.png)
 
-![](/images/image123.png)
-
-![](/images/image87.png)
+(first version of the site)
 
 ## Building a Team
 
@@ -82,21 +80,11 @@ We got 1k+ new users on day one. By day two, virality dropped hard. I spun up a 
 
 ![](/images/image24.png)
 
-At Payton High School, about 40% of students were clicking. From there it spread to nearby Chicago high schools. Then hackers showed up.
-
-## When Things Started Breaking
-
-I had skipped authentication so anyone could play freely. Hackers used that to hit Firebase and fake the click counts.
-
-I could not fully close that hole without auth. After some research, I copied a trick from popcat.click: an hourly click limit. If counts jumped too fast past a threshold, growth stopped and players saw this error:
-
-![](/images/image15.png)
-
-That blocked a lot of attacks. There were more. I spent most of my time on security. Annoying, but I learned a lot about cybersecurity, so GREAT JOB HACKERS!!!
+At Payton High School, about 40% of students were clicking. From there it spread to nearby Chicago high schools. The counter was climbing. That was cool. It was also when the question got louder.
 
 ## The turning point
 
-SchoolClicker is a great game. It is a very enjoyable game. But at some point, I was like, why am I doing this? Just for users? Just to watch a counter go up?
+SchoolClicker is a great game. It is a very enjoyable game. But after launch, watching the users come in, I was like, why am I doing this? Just for users? Just to watch a counter go up?
 
 It was then I decided the clicks had to mean something outside the leaderboard.
 
@@ -104,13 +92,31 @@ I remembered a BuildOn thread from way earlier, back in January. BuildOn builds 
 
 ![](/images/image60.png)
 
-We had gotten on a call, and Erin explained that building a school would take serious fundraising, around $50k+. I had parked that for a while. When I started asking why SchoolClicker existed, that January conversation came back. Asking broke high schoolers to donate that kind of money through a clicker game was not realistic anyway. Users had already told me the same when I tried a plain donation link.
+We had gotten on a call, and Erin explained that building a school would take serious fundraising, around $50k+. I had parked that for a while. When I started asking why SchoolClicker existed, that January conversation came back. Asking broke high schoolers to donate that kind of money through a clicker game was not realistic anyway. Some users had already said the same when I tried a plain donation link.
 
 So I changed the model. Each season, the winning school's name would go on a donation tied to BuildOn. Every hundred clicks would also open a Greenpeace donation popup. The game stayed fun. The clicks pointed at environmental and educational impact.
 
+I remodeled the website around that mission.
+
+![](/images/image123.png)
+
+![](/images/image87.png)
+
+(remodeled site after the turning point)
+
+## When Things Started Breaking
+
+Around the same stretch, security got ugly. I had skipped authentication so anyone could play freely. Hackers used that to hit Firebase and fake the click counts.
+
+I could not fully close that hole without auth. After some research, I copied a trick from popcat.click: an hourly click limit. If counts jumped too fast past a threshold, growth stopped and players saw this error:
+
+![](/images/image15.png)
+
+That blocked a lot of attacks. There were more. I spent most of my time on security. Annoying, but I learned a lot about cybersecurity, so GREAT JOB HACKERS!!!
+
 ## Growing Through Social Media
 
-After that, I kept pushing growth. I collaborated with my friend Ben, an Instagram and TikTok creator. The first two videos did a few thousand views. The third took off past 100k+ views, and user count jumped with it.
+I kept pushing growth. I collaborated with my friend Ben, an Instagram and TikTok creator. The first two videos did a few thousand views. The third took off past 100k+ views, and user count jumped with it.
 
 I also posted on my own accounts. This is one of them:
 
@@ -132,9 +138,21 @@ Lane Tech High School hit 76,855,489 clicks at #1.
 
 The BuildOn-linked winner and Greenpeace popups are what made those clicks mean environmental and educational impact instead of only a high score.
 
+## Successes
+
+SchoolClicker eventually reached over 40,000 users. Of course I celebrated and saved the user count in this journal under Successes, right next to Ziad's thank-you from MeetingsFor1000.
+
+That pairing matters to me. One note is a founder who got a real $50k commitment. The other is a clicker game that actually spread. Both felt like proof that something I built could move.
+
+## Lessons Learned
+
+I kept Ziad's warning too. It is in Lessons Learned.
+
+His message was that careless bookings could damage founders' reputations with investors. That lesson followed me into SchoolClicker. A climbing number feels good. It is not enough on its own. If the product only feeds the counter, it is incomplete. That is why the clicks had to point at BuildOn and Greenpeace, not just a high score.
+
 ## Reflection
 
-Looking back, SchoolClicker can still look like a silly clicker game. The important part was answering why I was building it, and making sure the answer was bigger than user count.
+Looking back, SchoolClicker can still look like a silly clicker game. The important part was answering why I was building it after it started working, and making sure the answer was bigger than user count.
 
 It was one of the most meaningful projects I have built.
 
