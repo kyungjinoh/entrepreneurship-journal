@@ -66,7 +66,7 @@ Then I picked school ambassadors for each school, gave them an Instagram account
 
 (by the way, I tried the same thing before for UCLA vs USC. Universities were too large for that loop to go viral the same way, so I quickly switched the target to high schoolers.)
 
-I could not manage 100 ambassadors one by one, so I grouped schools by region and appointed a lead per region. That let me run outreach through a smaller set of leads.
+I could not manage ambassadors one by one, so I grouped schools by region and appointed a lead per region. That let me run outreach through a smaller set of leads.
 
 ## Launch Day
 
