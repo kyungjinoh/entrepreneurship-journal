@@ -138,7 +138,7 @@ The BuildOn-linked winner and Greenpeace popups are what made those clicks mean 
 
 ## Lessons Learned
 
-Ziad also warned that careless bookings could damage founders' reputations with investors. A product can grow fast and still create costs for someone else. That is the lesson I kept.
+I learned that generating users, of course, is important. But it is important to not forget the moral consequences I am making along the way, just like I listened to Ziad's feedback.
 
 ![](/images/mf1000-image11.png)
 
