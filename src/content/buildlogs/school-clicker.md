@@ -120,7 +120,7 @@ I also posted on my own accounts. This is one of them:
 
 ![](/images/image91.jpg)
 
-## Results
+## Successes
 
 I kept marketing through social and school networks. As of July 25th, combining Google Analytics tags I had to rotate twice, SchoolClicker reached over 40,000 users and about 120K visits. Guerrilla marketing and social posts spread it to 200+ schools, with about 4M views across posts.
 
@@ -136,17 +136,11 @@ Lane Tech High School hit 76,855,489 clicks at #1.
 
 The BuildOn-linked winner and Greenpeace popups are what made those clicks mean environmental and educational impact instead of only a high score.
 
-## Successes
-
-SchoolClicker eventually reached over 40,000 users. Of course I celebrated and saved the user count in this journal under Successes, right next to Ziad's thank-you from MeetingsFor1000.
-
-That pairing matters to me. One note is a founder who got a real $50k commitment. The other is a clicker game that actually spread. Both felt like proof that something I built could move.
-
 ## Lessons Learned
 
-I kept Ziad's warning too. It is in Lessons Learned.
+Ziad also warned that careless bookings could damage founders' reputations with investors. A product can grow fast and still create costs for someone else. That is the lesson I kept.
 
-His message was that careless bookings could damage founders' reputations with investors. That lesson followed me into SchoolClicker. A climbing number feels good. It is not enough on its own. If the product only feeds the counter, it is incomplete. That is why the clicks had to point at BuildOn and Greenpeace, not just a high score.
+![](/images/mf1000-image11.png)
 
 ## Reflection
 

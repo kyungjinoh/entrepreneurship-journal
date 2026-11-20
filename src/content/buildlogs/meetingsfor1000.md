@@ -72,11 +72,7 @@ There, I generated about 40k+ views, which was enough to attract about 200 users
 
 ![](/images/mf1000-image5.png)
 
-Then strangers thanked me. Ziad was one of them. He reported a $50,000 commitment from an angel investor after using the site. I saved his message, then refreshed my analytics again.
-
 ![](/images/mf1000-image1.png)
-
-The site quickly surpassed my target of 1,000 users. At two thousand users, I added “(updated: 2k now)” to this journal.
 
 ![](/images/mf1000-image8.png)
 
@@ -84,32 +80,24 @@ The site quickly surpassed my target of 1,000 users. At two thousand users, I ad
 
 ## Choosing Ethics Over Growth
 
-But another message from Ziad warned that careless bookings could damage founders' reputations with investors. I had helped open a door for him, but could this also make the next door harder to open?
+Then Ziad sent another message. He said careless bookings could hurt founders' reputations with investors.
 
 ![](/images/mf1000-image11.png)
 
 (Ziad's warning about reputation with VCs)
 
-I also got complaints that the platform might be a bit too spammy.
+I also started getting complaints that the platform felt spammy.
 
 ![](/images/mf1000-image14.png)
 
 (spam concern from users)
 
-For months, I measured MeetingsFor1000 by how effectively it solved the problem I had identified. Founders needed access to investors, and my website made that access easier. Ziad's warning forced me to look at the other side of the transaction. Every shortcut I created for a founder could become another interruption for an investor. I had built a tool to remove friction, without fully considering who would absorb it. For the first time, I questioned whether making something easier for my users automatically made it better for everyone affected by it.
+That hit hard. I had built MeetingsFor1000 to help founders get meetings, but the same tool could annoy investors and make founders look bad. I named it MeetingsFor1000 because I originally planned to stop at 1,000 users for that reason. I blew past that limit anyway and kept chasing growth.
 
-This is the side effect that I completely ignored when I first started this project. I started to ask this question: should I shut down this website or keep maintaining and growing it so that I can get more users? I spent quite a lot of time thinking about this.
+After thinking it through, I shut the website down.
 
-Thinking back, this wasn't the first time I've thought of this. The reason why the name of the website is meetingfor1000 is because I initially decided to only take 1000 users, worried that this platform might turn too spammy if I take too many people. But something that I worried actually happened. However, I didn't shut down even if it reached 2000 users. I was so focused on getting user that I didn't reflect on whether this platform was actually harming the people.
+## Reflection
 
-At the end of the day, the decision I made was to shut down this website, as keeping it would go against my morality.
-
-This way, the website came to an end.
-
-## Reflection:
-
-The hardest part of shutting down MeetingsFor1000 was that the project was not an obvious failure. People were using it. Ziad's thank-you still made me smile, and he had reported more than $50,000 through a connection made on the platform. By conventional measures, I had built something valuable. Yet I could not ignore his warning about reputations, or the complaints about unwanted outreach. I had to confront an uncomfortable possibility: a product could be successful according to its users and its growth metrics while still creating costs for others. Closing it meant accepting that success alone was not a sufficient reason to continue. Since this event, I have believed that great technology is not defined by growth alone, but by whether it creates a positive impact on society.
-
-I kept Ziad's thank-you under Successes. I kept his warning under Lessons Learned.
+MeetingsFor1000 reached about 2,000 users, and at least one founder reported a $50,000 commitment through it. I still shut it down after warnings about spam and damaged reputations with investors. Growth was not worth keeping a product that could harm the people around it.
 
 You can view the website here: [meetingsfor1000.com](https://meetingsfor1000.com), although it is currently blocked. MeetingsFor1000 and Sigan are the same product under two names.

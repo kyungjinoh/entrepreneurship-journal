@@ -14,22 +14,6 @@ coverType: "image"
 tags: ["Ironman","Helmet"]
 ---
 
-## How did I start this project?
-
-I spent a couple of weeks researching human creativity, how the brain actually generates ideas (this is my [research log](https://drive.google.com/drive/folders/1vBUY8TGrRN4bFpv7j8I4xqeOKUKoT2u3?usp=sharing) if you want to take a look).
-
-![](/images/image103.png)
-
-(part of my AI creativity research log)
-
-While working on that, I thought it would be cool if I could scan my own brain to see how creativity works in my own brain! That's how I came up with the idea to make my own EEG headset to scan my own brain. Along the way, my friend messaged me this, which I thought was a good idea.
-
-![](/images/image26.png)
-
-(what my friend said)
-
-It was a nice idea! That's how this project started.
-
 ## Logo creation (I struggled a lot)
 
 Early on, I spent hours on an Ironman helmet logo that lived only in my notebook while other projects actually shipped. Later, when the helmet became a real build, I kept iterating logos anyway. Classic red and gold faceplate, glowing arc reactor, shield mashups, black and white silhouette. None of them felt right on the first try.
@@ -91,7 +75,7 @@ PCB designing process was craazzzy. It wasn't hard, yet it was like solving thro
 
 ![](/images/image47.png)
 
-I exported the design and ordered only the bare PCB board from JLCPCB. I bought the components separately and soldered everything myself. This is how the board came.
+I exported the design and ordered only the bare PCB board from JLCPCB. I bought the components separately and soldered everything myself.
 
 ![](/images/image66.png)
 
