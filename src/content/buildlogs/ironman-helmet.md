@@ -91,7 +91,7 @@ PCB designing process was craazzzy. It wasn't hard, yet it was like solving thro
 
 ![](/images/image47.png)
 
-I exported BOM and component placement sheet and used JLCPCB website to order. This is how it came.
+I exported the design and ordered only the bare PCB board from JLCPCB. I bought the components separately and soldered everything myself. This is how the board came.
 
 ![](/images/image66.png)
 
