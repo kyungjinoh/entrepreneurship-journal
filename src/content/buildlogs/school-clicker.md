@@ -92,9 +92,7 @@ I remembered a BuildOn thread from way earlier, back in January. BuildOn builds 
 
 ![](/images/image60.png)
 
-We had gotten on a call, and Erin explained that building a school would take serious fundraising, around $50k+. I had parked that for a while. When I started asking why SchoolClicker existed, that January conversation came back. Asking broke high schoolers to donate that kind of money through a clicker game was not realistic anyway. Some users had already said the same when I tried a plain donation link.
-
-So I changed the model. Each season, the winning school's name would go on a donation tied to BuildOn. Every hundred clicks would also open a BuildOn and Greenpeace donation popup. The game stayed fun. The clicks pointed at environmental and educational impact.
+We had gotten on a call, and Erin explained that building a school would take serious fundraising, around $50k+. I had parked that for a while. When I started asking why SchoolClicker existed, that January conversation came back. Each season, the winning school's name would go on a donation tied to BuildOn. Every hundred clicks would also open a BuildOn and Greenpeace donation popup. The game stayed fun. The clicks pointed at environmental and educational impact.
 
 I remodeled the website around that mission.
 
